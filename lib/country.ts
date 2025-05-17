@@ -1,4 +1,4 @@
-import { landingPageConfig } from "@/config/landing-page";
+import { landingPageConfig } from '@/config/landing-page';
 
 export function getCodeFromCountryName(countryName: string) {
   const country = landingPageConfig.language.countries.find(

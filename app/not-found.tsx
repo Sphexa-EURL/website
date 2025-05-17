@@ -1,9 +1,9 @@
-import Navbar from "./(landing)/components/navbar";
-import Footer from "./(landing)/components/footer";
-import { ArrowLeft, ArrowRight } from "lucide-react";
+import Navbar from './(landing)/components/navbar';
+import Footer from './(landing)/components/footer';
+import { ArrowLeft, ArrowRight } from 'lucide-react';
 
-import { siteConfig } from "@/config/site";
-import Link from "next/link";
+import { siteConfig } from '@/config/site';
+import Link from 'next/link';
 
 export default function notFound() {
   return (
@@ -46,7 +46,8 @@ export default function notFound() {
               className="text-sphexa hover:text-sphexa-dark transition-all flex gap-2 justify-center items-center group"
               href="/"
             >
-              <ArrowLeft className="w-5 h-5 transform transition-transform duration-300 group-hover:-translate-x-0.25"></ArrowLeft> Back to home
+              <ArrowLeft className="w-5 h-5 transform transition-transform duration-300 group-hover:-translate-x-0.25"></ArrowLeft>{' '}
+              Back to home
             </Link>
           </div>
         </div>

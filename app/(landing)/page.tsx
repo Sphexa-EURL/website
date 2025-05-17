@@ -1,11 +1,11 @@
-import HeroSection from "./sections/hero";
-import ServicesSection from "./sections/services";
+import HeroSection from './sections/hero';
+import ServicesSection from './sections/services';
 
 export default function LandingPage() {
   return (
     <div>
       <HeroSection />
-      <ServicesSection/>
+      <ServicesSection />
     </div>
-  )
+  );
 }

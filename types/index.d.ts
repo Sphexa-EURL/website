@@ -1,5 +1,3 @@
-
-
 // Landing page
 interface NavbarItemProps {
   title: string;
